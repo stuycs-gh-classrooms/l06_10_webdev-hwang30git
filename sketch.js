@@ -1,20 +1,15 @@
-var rectx;
-var recty;
-var xspeed;
-var yspeed;
-
 function setup() {
   // put setup code here
   createCanvas(600, 400);
   background(0);
   
-  rectx = random(1, width - 100);
-  recty = random(1, height - 50);
-  xspeed = random(-5, 6);
-  yspeed = random(-5, 6);
+  var rectx = random(1, width - 100);
+  var recty = random(1, height - 50);
+  var xspeed = random(-5, 6);
+  var yspeed = random(-5, 6);
   while (xspeed === 0 || yspeed === 0) {
-    xspeed = random(-5, 6);
-    yspeed = random(-5, 6);
+    var xspeed = random(-5, 6);
+    var yspeed = random(-5, 6);
   }
 }
 
