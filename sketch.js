@@ -20,7 +20,7 @@ function draw() {
 }
 
 function bounce() {
-  fill(250);
+  fill(255);
   rect(rectx, recty, 100, 50);
   rectx += xspeed;
   recty += yspeed;
